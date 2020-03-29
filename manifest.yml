@@ -1,0 +1,7 @@
+applications:
+- name: chsb
+  buildpack: dotnet_core_buildpack
+  path: .\publish
+  services:
+  - showme-creds
+  - showme-creds2
